@@ -1,0 +1,158 @@
+
+*{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
+body{
+    margin: 0px;
+}
+
+/*Styling Header*/
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 0px 150px 100px 150px;  
+}
+.logo-header{
+    width: 60px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.navbar{
+  align-self: center;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    color: white;
+    padding-top: 10px;
+}
+.header-logo{
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    color: white;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+a:hover{
+    background-color: blue;
+    border-radius: 0.2rem;
+    color: white;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    padding: 5px;
+
+
+}
+.hero{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     color: white;
+     flex-wrap: wrap;
+     gap: 30px;
+}
+
+.hero .text{
+     font-size: 48px;
+     margin-bottom: 10px;
+}
+
+.hero .hero-right img{
+    width:600px;
+    height: auto;
+    flex-shrink: 1;
+    
+}
+
+.hero-right{
+    flex-shrink: 1;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: red;
+    font-size: 24px;
+    font-weight: 900;
+    color: blue;
+    border: none;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    border: red;
+    border-style: solid;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+/* Styling wrapper */
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 150px 100px 150px;  
+
+}
+.title-pictures{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 50px;
+
+}
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.pictures img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0.3rem;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+  
+}
+.container{
+    width: 200px;
+}
+
+.pictures img:hover{
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+  
+}
+
+.pictures .text{
+    text-align: center;
+   
+    font-size: 22px;
+}
